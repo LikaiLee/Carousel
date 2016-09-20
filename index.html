@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>旋转木马幻灯片特效</title> 
+  <link rel="stylesheet" href="css/reset.css" /> 
+  <style>
+		.poster-main{
+			position: relative;
+		}
+		.poster-main .poster-list .poster-item{
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.poster-main .poster-btn{
+			position: absolute;
+			top: 0;
+			cursor: pointer;
+		}
+		.poster-main .poster-prev-btn{
+			left: 0;
+			background: url("images/btn_l.png") no-repeat center center;
+		}
+		.poster-main .poster-next-btn{
+			right: 0;
+			background: url("images/btn_r.png") no-repeat center center;
+		}
+		
+	</style> 
+ </head> 
+ <body> 
+  <div class="poster-main" id="carousel" data-setting='{
+							"width":1000,
+							"height":300,
+							"posterWidth":600,
+							"posterHeight":300,
+							"scale":0.8,
+							"speed":1000,
+							"autoPlay":true,
+							"delay":3000,
+							"verticalAlign":"middle"
+							}'> 
+   <div class="poster-btn poster-prev-btn"></div> 
+   <ul class="poster-list"> 
+    <li class="poster-item"><a href="#"><img src="images/1.jpg" alt="" width="100%" /></a></li> 
+    <li class="poster-item"><a href="#"><img src="images/2.jpg" alt="" width="100%" /></a></li> 
+    <li class="poster-item"><a href="#"><img src="images/3.jpg" alt="" width="100%" /></a></li> 
+    <li class="poster-item"><a href="#"><img src="images/4.jpg" alt="" width="100%" /></a></li> 
+    <li class="poster-item"><a href="#"><img src="images/5.jpg" alt="" width="100%" /></a></li> 
+   </ul> 
+   <div class="poster-btn poster-next-btn"></div> 
+  </div> 
+  <script src="js/jquery-1.9.1.min.js"></script> 
+  <script src="js/Carousel.js"></script> 
+  <script>
+		$(function(){
+			Carousel.init($("#carousel"));
+			$("#carousel").init();
+		});
+	</script>  
+ </body>
+</html>
