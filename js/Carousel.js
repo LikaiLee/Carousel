@@ -1,6 +1,6 @@
 /**
  * jQuery Carousel.js 
- * 
+ * 旋转木马
  * https://github.com/LikaiLee/Carousel
  * MIT licensed
  * 
