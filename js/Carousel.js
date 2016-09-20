@@ -1,7 +1,7 @@
 /**
  * jQuery Carousel.js 
  * 
- * https://github.com/likailee/Carousel
+ * https://github.com/LikaiLee/Carousel
  * MIT licensed
  * 
  * Author LikaiLee  HDU
