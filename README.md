@@ -1,6 +1,5 @@
-Welcome to Likai Lee's GitHub!
 ===================
-# The First Project In GitHub --> JQuery旋转木马幻灯片特效
+#  JQuery旋转木马幻灯片特效
 ## CONTACTS ME : <likailee.cn@gmail.com>
 <i class="icon-cog"></i> **使用方法** 
 ```html
