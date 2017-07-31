@@ -28,6 +28,9 @@ $(function(){
 							}'> 
 							
 ```
+#### 截图
+![](carousel.gif)
+
 ## License
 
 Licensed under the MIT License
