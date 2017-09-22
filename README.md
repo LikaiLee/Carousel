@@ -1,6 +1,5 @@
 ===================
 #  JQuery旋转木马幻灯片特效
-## CONTACTS ME : <likailee.cn@gmail.com>
 <i class="icon-cog"></i> **使用方法** 
 ```html
 <script src="js/jquery-1.9.1.min.js"></script> 
